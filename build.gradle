@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'aig'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.itextpdf:itextpdf:5.5.13'
+    testCompile 'junit:junit:4.12'
+}
